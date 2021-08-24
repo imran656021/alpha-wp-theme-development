@@ -1,0 +1,158 @@
+/* 
+Theme Name: Alpha
+Theme URI:
+Author: Al Imran Sagor
+Author URI: imran.gmail.com
+Description: Our first wordpress Theme
+Version: 1.0
+Licence: GNU General Public License v2 or later
+Licence URI: http://www.gnu.org/licenses/gpl-e.0.html 
+Tags: blog , education
+Text Domain: alpha
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.head-title {
+    text-decoration: none;
+}
+
+h1.heading:hover {
+    text-decoration: none;
+}
+
+h1.heading {
+    font-family: "Arial Black";
+    width: 700px;
+    margin: auto;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+h3.tagline {
+    font-family: Arial;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 700px;
+    text-align: center;
+}
+
+h2.post-title {
+    margin-bottom: 30px;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.post p {
+    font-family: "Helvetica Neue";
+    line-height: 1.7em;
+    font-size: 18px;
+}
+
+.post .row:nth-child(2) {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post:last-child .row:nth-child(2) {
+    border-bottom: none;
+}
+
+.footer {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #222;
+    color: #ccc;
+}
+
+.tags li {
+    color: #3D9970;
+}
+
+.page-header {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    padding: 170px 0;
+}
+
+.page-header h1.heading a {
+    color: black !important;
+    text-decoration: none;
+}
+
+.header h1.heading a {
+    text-decoration: none;
+}
+
+.custom-logo {
+    text-align: center;
+}
+
+.custom-logo img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.menu-alpha-top-menu-container ul li {
+    padding: 0 10px;
+}
+
+.menu-alpha-top-menu-container ul li a {
+    text-decoration: none;
+}
+
+.dashicons {
+    color: #ccc;
+    font-size: 150px;
+}
+
+.author-avater {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.testimonials img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    padding: 60px 0;
+}
+
+.search-highlight {
+    background: #ff0;
+    font-weight: bold;
+}
+
+.dashicons,
+.dashicons-before:before {
+    margin-bottom: 109px;
+}

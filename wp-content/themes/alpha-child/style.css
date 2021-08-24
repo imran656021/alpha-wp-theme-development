@@ -1,0 +1,17 @@
+/* 
+Theme Name: Alpha Child
+Template: alpha
+Theme URI:
+Author: Al Imran Sagor
+Author URI: imran.gmail.com
+Description: Our first wordpress Theme
+Version: 1.0
+Licence: GNU General Public License v2 or later
+Licence URI: http://www.gnu.org/licenses/gpl-e.0.html 
+Tags: blog , education
+Text Domain: alpha-child
+ */
+
+h1.heading a {
+    text-transform: uppercase;
+}

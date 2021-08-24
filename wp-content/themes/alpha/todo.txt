@@ -1,0 +1,4 @@
+add template markup to index.php file
+mecessary bootstrapping (after-theme_setup action hook)
+write css to style.csschange markup to theme code 
+split into multiple files

@@ -1,0 +1,815 @@
+/*
+Theme Name: Molly Brand
+Theme URI:
+Author: Al Imran Sagor
+Author URI: imran656021@gmail.com
+Description: Launcher An Awesome Responsive Website For Launc a Product!
+Version: 1.0
+Licence: GNU General Public License v2 or later
+Licence URI: http://www.gnu.org/licenses/gpl-e.0.html 
+Tags: shopping , ecommerce
+Text Domain: mollyBrand
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@300;400;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+.little-title {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.little-description {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: #2c4755;
+}
+
+.btn {
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.composite {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+/* ===========main css start ================== */
+
+
+/*  */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999999;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 1px 10px #000;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #ffe600;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.navbar-light .navbar-nav .active {
+    color: #ffe500 !important;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin: 0 1rem;
+    line-height: 4rem;
+    color: #849197;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all ease-in-out .4s;
+    -webkit-transition: all ease-in-out .4s;
+    -moz-transition: all ease-in-out .4s;
+    -ms-transition: all ease-in-out .4s;
+    -o-transition: all ease-in-out .4s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffe500;
+}
+
+
+/* ===================slider part start ============================= */
+
+.slider .carousel-con {
+    padding: 18.4rem;
+    background: #324651;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .9;
+    text-align: center;
+}
+
+.slider .carousel-con .little-title {
+    font-weight: 300;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.slider .carousel-con strong {
+    color: #ffe600;
+}
+
+.slider .carousel-con .little-description {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.slider .carousel-con h5 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.slider .carousel-con button {
+    padding: .7rem 3rem;
+    background: #fff;
+    color: #ffe600;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.carousel-indicators li {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid#fff;
+    background: transparent;
+    margin-bottom: 8rem;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background: #ffe600;
+}
+
+
+/* ================slider part end================================= */
+
+
+/* ================services part start =========================== */
+
+.services {
+    padding-bottom: 4rem;
+}
+
+.services .service-head {
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+
+.services .service-head h2 {
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: #2c4755;
+}
+
+.services .service-head .composite {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.service-content img {
+    margin-bottom: 3rem;
+}
+
+.service-content h3 {
+    color: #334752;
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+
+/* ================services part end =========================== */
+
+
+/* =============web design part start here ======================= */
+
+.web-design {
+    z-index: 99999;
+    padding-top: 7rem;
+    background: linear-gradient(rgba(50, 70, 81, .9), rgba(50, 70, 81, .9)), url(../images/web.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.web-design h3 {
+    margin-bottom: 3rem;
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #ffe600;
+}
+
+.web-design p {
+    margin-bottom: 4rem;
+    color: #fff;
+    font-size: 14px;
+    line-height: 3rem;
+}
+
+.web-design a {
+    margin-bottom: 1.2rem;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+    letter-spacing: .2rem;
+    font-weight: 300;
+}
+
+.web-design a i {
+    font-size: 1.2rem;
+    color: #fff;
+    opacity: .5;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: .6rem;
+    background: transparent;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.web-design .links {
+    margin-left: 2rem;
+}
+
+.web-design button {
+    margin-top: 6rem;
+    padding: .7rem 3rem;
+    background: #fff;
+    color: #ffe600;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.web-foot {
+    position: absolute;
+    height: 7rem;
+    width: 100%;
+    left: 0;
+    bottom: -18px;
+    background: #ffe500;
+    z-index: -5;
+}
+
+
+/* =============web design part end here ======================= */
+
+
+/* ===========portfolio part start here ============================= */
+
+.portfolio {
+    padding-bottom: 4rem;
+}
+
+.portfolio .portfolio-head {
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+
+.portfolio .portfolio-head h2 {
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: #2c4755;
+    text-transform: uppercase;
+}
+
+.portfolio .portfolio-head .composite {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.porfolio-sec img {
+    margin-bottom: 3rem;
+}
+
+.porfolio-sec button {
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none;
+    margin: 0 1rem;
+    background: transparent;
+    cursor: pointer;
+}
+
+.porfolio-sec .buttons .active {
+    background: #ffe500;
+    color: #fff;
+}
+
+.porfolio-sec .buttons {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.porfolio-sec button:hover {
+    background: #ffe500;
+    color: #fff;
+}
+
+.portfolio .prt-foot-btn {
+    text-align: center;
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none;
+    margin: 0 1rem;
+    cursor: pointer;
+    background: #ffe500;
+    color: #fff;
+}
+
+.portfolio .prt-foot-btn:hover {
+    border: 1px solid #ffe500;
+    color: #ffe500;
+    background: transparent;
+}
+
+
+/* ===========portfolio part end here ============================= */
+
+
+/* ===============video part start her =========================== */
+
+.video {
+    padding: 6rem 0;
+    background: #ffe500;
+}
+
+.video-con h3 {
+    font-weight: 600;
+    color: #334752;
+    font-size: 1.8rem;
+}
+
+.video-con h5 {
+    color: #334752;
+    font-style: italic;
+    padding: 1rem 0;
+}
+
+.video-con p {
+    color: #fff;
+    font-weight: 1.4rem;
+}
+
+.video-con button {
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    color: #ffe600;
+}
+
+
+/* ===============video part end her =========================== */
+
+
+/* ==================business part start here ================== */
+
+.business {
+    /* background: #324651; */
+    background: linear-gradient(rgba(50, 70, 81, .9), rgba(50, 70, 81, .9)), url(../images/business.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 7rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.business h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.business p {
+    font-style: italic;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.business button {
+    margin-top: 2rem;
+    margin-bottom: 41rem;
+    color: #ffe600;
+}
+
+.business img {
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* ==================business part end here ================== */
+
+
+/* ===============about section start here ==================== */
+
+.about {
+    padding-top: 7rem;
+    /* padding-bottom: 4rem; */
+    text-align: center;
+}
+
+.about .about-head h2 {
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: #2c4755;
+    text-transform: uppercase;
+}
+
+.about .about-head .composite {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about .about-head p {
+    margin-bottom: 5rem;
+}
+
+.about .content {
+    padding: 0 6rem;
+    text-align: start;
+}
+
+.about .content h4 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #ffe500;
+    margin-bottom: 2rem;
+}
+
+.about .content h5 {
+    margin-bottom: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-style: italic;
+    color: #334752;
+}
+
+.about .content p {
+    font-weight: 300;
+}
+
+.about .social-links {
+    padding-left: 6rem;
+    text-align: start;
+    margin-top: 5rem;
+}
+
+.about .social-links i {
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #fafafa;
+    margin-right: 2rem;
+    transition: all ease-in-out .4s;
+    -webkit-transition: all ease-in-out .4s;
+    -moz-transition: all ease-in-out .4s;
+    -ms-transition: all ease-in-out .4s;
+    -o-transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+
+.about .social-links i:hover {
+    background: #ffe500;
+    color: #fff;
+}
+
+.about .img img {
+    height: 44rem;
+    width: 37rem;
+}
+
+.men-image {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+
+/* ===============about section end here ==================== */
+
+
+/* ============company part start here =========================== */
+
+.company {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    /* background: #324651; */
+    background: linear-gradient(rgba(50, 70, 81, .9), rgba(50, 70, 81, .9)), url(../images/About.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.company h3 {
+    font-size: 1.7rem;
+    color: #ffe600;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.company .progress-items {
+    padding-right: 3rem;
+}
+
+.company .progress-items h4 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #ffe600;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.company .content .first-p {
+    margin-top: 4.2rem;
+    margin-bottom: 2.5rem;
+}
+
+.company .content p {
+    color: #fff;
+}
+
+
+/* ============company part end here =========================== */
+
+
+/* ======================blog part start here ================== */
+
+.blog {
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+
+.blog .card h5 {
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: #ffe600;
+}
+
+.blog .card p {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.blog .card .little-description {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.blog .card strong {
+    color: #ffe600;
+}
+
+.blog .card a {
+    color: #ffe600;
+    text-align: right;
+    font-size: 1.4rem;
+    display: block;
+}
+
+.blog button {
+    background: #ffe500;
+    color: #fff;
+    border: 1px solid #ffff;
+}
+
+.blog button:hover {
+    background: transparent;
+    border: 1px solid #ffe500;
+    color: #ffe600;
+}
+
+
+/* ======================blog part end here ================== */
+
+
+/* =================newsletter part start ======================== */
+
+.newsletter {
+    padding: 5rem 0;
+    background: #ffe600;
+}
+
+.newsletter h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.newsletter input {
+    width: 43rem;
+    padding: 1.5rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    margin-right: 3rem;
+    outline: none;
+}
+
+.newsletter button {
+    background: #ffff;
+    padding: 1.4rem 4rem;
+    font-size: 1.2rem;
+    border: 1px solid #ffe600;
+}
+
+.newsletter button:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff !important;
+}
+
+
+/* =================newsletter part end ======================== */
+
+
+/* =================contact part star=============================== */
+
+.contact {
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    background: linear-gradient(rgba(50, 70, 81, .9), rgba(50, 70, 81, .9)), url(../images/contact.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact h2 {
+    color: #fff;
+}
+
+.contact p {
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.contact input {
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+    color: #fff;
+}
+
+.contact textarea {
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    margin-bottom: 4rem;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.contact button:hover {
+    background: #ffe600;
+    color: #fff;
+}
+
+
+/* =================contact part end=============================== */
+
+
+/* ================footer part start here ===================================== */
+
+footer {
+    background: #182227;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+footer h5 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+footer h6 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+footer p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+footer .icons {
+    margin: 1rem 0;
+}
+
+footer .icons i {
+    font-size: 1.2rem;
+    padding: .6rem;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: .5rem;
+}
+
+footer span {
+    color: #ffe600;
+}
+
+
+/* ================footer part end here ===================================== */

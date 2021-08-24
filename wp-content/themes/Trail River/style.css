@@ -1,0 +1,676 @@
+/*
+Theme Name: Trail & River
+Theme URI:
+Author: Al Imran Sagor
+Author URI: imran656021@gmail.com
+Description: Trail & River An Awesome Responsive Website For Launc a Product!
+Version: 1.0
+Licence: GNU General Public License v2 or later
+Licence URI: http://www.gnu.org/licenses/gpl-e.0.html 
+Tags: River , Nature
+Text Domain: trail-river
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background-color: #618138;
+}
+
+.top-bar p {
+    color: #fff;
+    text-align: center;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.top-bar p a {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    margin-left: 15px;
+    font-size: 16px;
+    color: #c0d3a9;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.top-header {
+    padding: 10px 55px;
+    display: flex;
+}
+
+.main-logo {
+    width: 40%;
+}
+
+.links {
+    width: 60%;
+    text-align: right;
+}
+
+.links ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.links ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 0 11px;
+    color: #969696;
+    line-height: 69px;
+}
+
+.menu {
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #f3f3f3;
+}
+
+.menu ul li a:hover {
+    background-color: #242A0A;
+    color: white;
+    transition: all ease-in-out 0.5s;
+}
+
+.menu ul li:last-child {
+    border-right: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    display: block;
+    line-height: 42px;
+    padding: 0 44px;
+    color: #3e3e3e;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+
+/* bannar part  */
+
+.banner {
+    margin: 35px 50px 30px;
+    background-image: url(./image/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 100px;
+}
+
+.banner h3 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner p {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.banner a {
+    text-decoration: none;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 0 10px 0 10px;
+    transition: all ease-in-out 0.5s;
+}
+
+.banner a:hover {
+    background-color: #608a33;
+    border: none;
+}
+
+.service {
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    position: relative;
+}
+
+.service1 img {
+    width: 100%;
+}
+
+.service2 img {
+    width: 100%;
+}
+
+.service3 img {
+    width: 100%;
+}
+
+.service h5 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    /* color: #fff; */
+    color: white;
+    transition: all ease-in-out 0.5s;
+}
+
+.service a {
+    text-decoration: none;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: black;
+    display: block;
+    color: white;
+    transition: all ease-in-out 1s;
+}
+
+.service1 {
+    position: relative;
+    cursor: pointer;
+}
+
+.content1 {
+    position: absolute;
+    left: 0;
+    bottom: 0px !important;
+    width: 100%;
+    opacity: .4;
+    background-color: black;
+    padding: 10px 10px;
+    /* display: none; */
+    transition: all ease 1s;
+}
+
+.service2 {
+    position: relative;
+    cursor: pointer;
+}
+
+.content2 {
+    position: absolute;
+    left: 0;
+    bottom: 0px !important;
+    width: 100%;
+    opacity: .4;
+    background-color: black;
+    padding: 10px 10px;
+    /* display: none; */
+}
+
+.service3 {
+    position: relative;
+    cursor: pointer;
+}
+
+.content3 {
+    position: absolute;
+    left: 0;
+    bottom: 0px !important;
+    width: 100%;
+    opacity: .4;
+    background-color: black;
+    padding: 10px 10px;
+    /* display: none; */
+    transition: all ease 1s;
+}
+
+.service1:hover .content1 {
+    /* display: block; */
+    opacity: 0.6;
+}
+
+.service2:hover .content2 {
+    /* display: block; */
+    opacity: 0.6;
+}
+
+.service3:hover .content3 {
+    /* display: block; */
+    opacity: 0.6;
+}
+
+.brand h4 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    color: #ababab;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.brand h4:before,
+.brand h4:after {
+    opacity: .2;
+    position: absolute;
+    content: " ";
+    width: 39%;
+    height: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    top: 4px;
+}
+
+.brand h4:before {
+    left: 0;
+}
+
+.brand h4:after {
+    right: 0;
+}
+
+.slider {
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.customer {
+    padding: 0 0 20px 0;
+}
+
+.customer h4 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    color: #ababab;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.customer h4:before,
+.customer h4:after {
+    opacity: .2;
+    position: absolute;
+    content: " ";
+    width: 36%;
+    height: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    top: 4px;
+}
+
+.customer h4:before {
+    left: 0;
+}
+
+.customer h4:after {
+    right: 0;
+}
+
+
+/* start customer Service section */
+
+.customer-service {
+    width: 1170px;
+    height: 300px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.customer-service1 img {
+    width: 100%;
+    height: 300px;
+}
+
+.customer-service2 img {
+    width: 100%;
+    height: 300px;
+}
+
+.customer-service h5 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    /* color: #fff; */
+    color: white;
+    transition: all ease-in-out 0.5s;
+}
+
+.customer-service a {
+    text-decoration: none;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: black;
+    display: block;
+    color: white;
+    transition: all ease-in-out 1s;
+}
+
+.customer-service1 {
+    position: relative;
+    cursor: pointer;
+}
+
+.content1 {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    opacity: .4;
+    background-color: black;
+    padding: 10px 10px;
+    /* display: none; */
+    transition: all ease-in-out 1s;
+}
+
+.customer-service2 {
+    position: relative;
+    cursor: pointer;
+}
+
+.content2 {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    opacity: .4;
+    background-color: black;
+    padding: 10px 10px;
+    /* display: none; */
+}
+
+.customer-service1:hover .content1 {
+    /* display: block; */
+    opacity: 0.6;
+}
+
+.customer-service2:hover .content2 {
+    /* display: block; */
+    opacity: 0.6;
+}
+
+.customer-content {
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    position: relative;
+}
+
+.customer-content div {
+    width: 275.73px;
+}
+
+.customer-content img {
+    width: 100%;
+    display: block;
+}
+
+.customer-content h3 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #878787;
+}
+
+.customer-content h5 {
+    color: #878787;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.customer-content figcaption {
+    padding: 0 20px;
+}
+
+.price p {
+    float: left;
+    color: #878787;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.price ul {
+    padding-left: 20px;
+    display: flex;
+    padding-top: 3px;
+}
+
+.price ul li {
+    margin-left: 1px;
+    list-style: none;
+    color: #878787;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.place {
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    margin-bottom: 310px;
+}
+
+.place img {
+    width: 100%;
+    height: 300px;
+}
+
+.place1 {
+    width: 60%;
+    float: left;
+}
+
+.place2 {
+    width: 37%;
+    float: right;
+    position: relative;
+}
+
+.place2-con {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    background-color: black;
+    height: 100%;
+    padding: 80px 34px;
+    opacity: .7;
+}
+
+.place2-con h3 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.place2-con p {
+    color: #fff;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.place2-con button {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+.banner2 {
+    height: 120px;
+    width: 1170px;
+    margin: 0 auto;
+    background: url('./image/banner4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo img {
+    margin: 37px 0;
+    margin-left: 159px;
+    margin-right: 0;
+    height: 45px;
+    width: 204px;
+    display: block;
+}
+
+.mid-con p {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 22px;
+    color: white;
+    padding: 41px 63px;
+}
+
+.button button {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 27px;
+    margin: 39px 0;
+}
+
+.top-footer {
+    background-color: #f4f4f4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    padding: 20px 0;
+}
+
+.f-con-1 {
+    padding: 0 0 0 239px;
+}
+
+.top-footer h3 {
+    color: #7e7e7e;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.top-footer p {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #7e7e7e;
+    padding: 3px 0;
+}
+
+.f-con-2 {
+    padding: 0 116px;
+}
+
+.f-con-3 {
+    padding: 12px 0;
+}
+
+.logoimg img {
+    width: 232px;
+    height: 55px;
+}
+
+.smalllgo {
+    padding: 11px 0;
+}
+
+.smalllgo ul {
+    display: flex;
+}
+
+.smalllgo ul li {
+    list-style: none;
+    padding: 5px 5px;
+}
+
+.smalllgo ul li img {
+    width: 39px;
+}
+
+.nav {
+    background-color: #618138;
+}
+
+.nav ul {
+    display: flex;
+    padding: 5px 0;
+    float: left;
+    margin-right: 131px;
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.nav ul li a i {
+    padding-right: 5px;
+}
+
+.nav p {
+    /* float: right; */
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+    font-weight: italic;
+    line-height: 20px;
+    color: white;
+    padding: 11px 0;
+    font-style: italic;
+}

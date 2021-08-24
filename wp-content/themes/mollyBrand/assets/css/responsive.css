@@ -1,0 +1,53 @@
+@media(max-width:992px) {
+    .nav-brnd {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    .web-design h3 {
+        margin-top: 6rem;
+    }
+    .porfolio-sec button {
+        margin-bottom: 3rem;
+    }
+    .portfolio .container .col {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    .video img {
+        margin-bottom: 4rem;
+    }
+    .about .img img {
+        margin: 3rem 0;
+    }
+    .company h3 {
+        margin-top: 5rem;
+    }
+    .card {
+        margin-top: 5rem;
+    }
+    .newsletter button {
+        margin-top: 4rem;
+    }
+    .web-design .row {
+        text-align: center;
+    }
+    .video-con {
+        text-align: center;
+    }
+    /* ============newsletter part ========================= */
+    .newsletter input {
+        width: 100%;
+        padding: 1.5rem 2rem;
+        border: none;
+        border-radius: 2rem;
+        /* margin-right: 3rem; */
+        outline: none;
+        /* text-align: center; */
+    }
+    .newsletter .mx-auto {
+        width: 100%;
+    }
+    /* ============carousel====================== */
+}
